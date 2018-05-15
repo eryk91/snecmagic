@@ -2,46 +2,12 @@
     font-family: Lato;
     src: url('../fonts/Lato-Regular.ttf');
 }
+@import url("preloader.css");
 
-* {margin: 0;padding: 0;box-sizing: border-box;}
+
+* {margin: 0;paddi  ng: 0;box-sizing: border-box;}
 body {
   overflow: hidden;
   font-family: 'Lato', sans-serif;
   color: #fff;
-}
-
-
-
-
-/* PRELOADER ---------------------------------------------------------------- */
-div#preloader {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  z-index: 1000;
-  overflow: hidden;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: #111111;
-  width: 100vw;
-  height: 100vh;
-}
-div#preloader > div#preloader-circle {
-  border-radius: 10vw;
-  border: 1vw solid #ffd700;
-  height: 20vw;
-  width: 20vw;
-  animation: preloader 0.6s linear 0s infinite;
-}
-@keyframes preloader {
-  0% {
-    transform: scale(0.2);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 0;
-  }
 }
