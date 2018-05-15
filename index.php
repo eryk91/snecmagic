@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" type="text/css" href="css/main.css" />
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/functions.js"></script>
 </head>
 <body>
   <div id="preloader"><div id="preloader-circle"></div></div>
