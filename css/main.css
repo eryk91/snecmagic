@@ -5,7 +5,7 @@
 @import url("preloader.css");
 
 
-* {margin: 0;paddi  ng: 0;box-sizing: border-box;}
+* {margin: 0;padding: 0;box-sizing: border-box;}
 body {
   overflow: hidden;
   font-family: 'Lato', sans-serif;
