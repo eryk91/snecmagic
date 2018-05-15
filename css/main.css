@@ -12,6 +12,7 @@ body {
   font-family: 'Lato', sans-serif;
   color: #fff;
   background-color: #000;
+  z-index: -1;
 }
 header {
   text-align: center;
@@ -40,7 +41,7 @@ header > h1 {
 header > p {
   font-size: 1.8vw;
   text-shadow: 3px 3px 5px #000000;
-    padding-bottom: 4vw;
+  padding-bottom: 4vw;
 }
 header > h1 > span {
   color: #e2810a;

@@ -21,7 +21,7 @@
   <header>
     <h1>SNEC<span>Studio</span></h1>
     <p>Zespół tworzący profesjonalne strony internetowe z pasją</p>
-    <div id="scrollArrow"></div>
+    <div id="scrollArrow" onclick="lipa()">xD</div>
   </header>
   <section class="slide1">
     <br />
