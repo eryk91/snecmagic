@@ -14,3 +14,6 @@ window.onbeforeunload = function () {
   'use strict';
   window.scrollTo(0, 0);
 }
+$( "#scrollArrow" ).click(function() {
+  alert( "Handler for .click() called." );
+});
