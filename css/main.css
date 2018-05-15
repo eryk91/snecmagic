@@ -14,15 +14,31 @@ body {
   background-color: #000;
 }
 header {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-image: url("../images/bg0.jpg");
   height: 100vh;
   width: 100%;
 }
 header:after {
   display: block;
-  position: relative;
   background-image: linear-gradient(180deg, transparent 0%, black 90%);
   height: 100vh;
   width: 100%;
   content: '';
+}
+header > h1 {
+  padding-top: 40vh;
+  font-size: 5vw;
+  text-shadow: 5px 5px 15px #000000;
+}
+header > p {
+  font-size: 1.4vw;
+  text-shadow: 3px 3px 5px #000000;
+}
+header > h1 > span {
+  color: #e2810a;
 }

@@ -7,7 +7,7 @@ $(document).ready(function() {
 function deletePreloader() {
   'use strict';
   $("div#preloader").remove();
-
+  $('html, body').css('overflowY', 'auto');
 }
 
 window.onbeforeunload = function () {
