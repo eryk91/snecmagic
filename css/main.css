@@ -1,9 +1,8 @@
+@import 'preloader.css';
 @font-face {
     font-family: Lato;
     src: url('../fonts/Lato-Regular.ttf');
 }
-@import url("preloader.css");
-
 
 * {margin: 0;padding: 0;box-sizing: border-box;}
 body {
