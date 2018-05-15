@@ -13,7 +13,12 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#E2810A">
 
   <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
+  <div id="preloader"><div id="preloader-circle"></div></div>
+  <header>
+  </header>
+
 </body>
 </html>
