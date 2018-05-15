@@ -1,4 +1,6 @@
 @import 'preloader.css';
+
+
 @font-face {
     font-family: Lato;
     src: url('../fonts/Lato-Regular.ttf');
@@ -9,4 +11,18 @@ body {
   overflow: hidden;
   font-family: 'Lato', sans-serif;
   color: #fff;
+  background-color: #000;
+}
+header {
+  background-image: url("../images/bg0.jpg");
+  height: 100vh;
+  width: 100%;
+}
+header:after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(180deg, transparent 0%, black 90%);
+  height: 100vh;
+  width: 100%;
+  content: '';
 }

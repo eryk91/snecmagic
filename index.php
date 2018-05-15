@@ -18,8 +18,15 @@
 </head>
 <body>
   <div id="preloader"><div id="preloader-circle"></div></div>
-  <header>xd
+  <header>
   </header>
-
+  <section class="slide1">
+  </section>
+  <section class="slide2">
+  </section>
+  <section class="slide3">
+  </section>
+  <footer>
+  </footer>
 </body>
 </html>
