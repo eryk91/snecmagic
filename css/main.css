@@ -37,10 +37,10 @@ header {
 }
 header:before {
   position: absolute;
-  top: 500px;
+  top: 70vh;
   display: block;
-  background-image: linear-gradient(180deg, transparent 0%, black 75%);
-  height: 100%;
+  background-image: linear-gradient(180deg, transparent 0%, black 100%);
+  height: 30vh;
   width: 100%;
   content: '';
 }
