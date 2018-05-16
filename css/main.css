@@ -110,3 +110,12 @@ section.slide1 > #overwrap > .circle:hover {
   transform: scale(1.2);
   background-color: #e2810a;
 }
+/* SLIDE2 */
+section.slide2 {
+  text-align: center;
+}
+section.slide2 > h2 {
+  padding-top: 8vh;
+  color: #e2810a;
+  font-size: 3vw;
+}

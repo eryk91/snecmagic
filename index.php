@@ -40,12 +40,12 @@
       <div class="circle">Prepare</div>
       <div class="circle">Publish</div>
     </div>
-
-
   </section>
   <section class="slide2">
+    <h2>Zobacz nasze dotychczasowe projekty</h2>
   </section>
   <section class="slide3">
+    <h2>Napisz do nas</h2>
   </section>
   <footer>
   </footer>
