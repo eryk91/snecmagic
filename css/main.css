@@ -14,6 +14,15 @@ body {
   background-color: #000;
   z-index: -1;
 }
+
+/* SCROLLBAR */
+body::-webkit-scrollbar {
+  background-color: #333;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #af6000;
+}
+
 header {
   text-align: center;
   background-position: center;
@@ -24,7 +33,7 @@ header {
   height: 100vh;
   width: 100%;
 }
-header:before {
+/* header:before {
   position: absolute;
   top: 0;
   display: block;
@@ -33,6 +42,8 @@ header:before {
   width: 100%;
   content: '';
 }
+
+*/
 header > h1 {
   padding-top: 30vh;
   font-size: 6vw;

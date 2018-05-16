@@ -14,8 +14,20 @@ window.onbeforeunload = function () {
   'use strict';
   window.scrollTo(0, 0);
 }
-/* xD */
+
+
+jQuery(window).on('scroll', function($){
+  if (jQuery(this).scrollTop() < 150) {
+	jQuery('#scrollArrow').fadeIn('slow');
+  } else {
+	jQuery('#scrollArrow').fadeOut('slow');
+  }
+});
+
+
 function lipa() {
-  'use strict';
-  alert( "Handler for .click() called." );
+$('#scrollArrow').click(function(){
+	$("html,body").animate({  scrollTop: $(".slide1").offset().top}, 998);
+
+});
 }

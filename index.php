@@ -11,7 +11,6 @@
   <meta name="theme-color" content="#E2810A">
   <meta name="msapplication-navbutton-color" content="#E2810A">
   <meta name="apple-mobile-web-app-status-bar-style" content="#E2810A">
-
   <link rel="stylesheet" type="text/css" href="css/main.css" />
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="js/functions.js"></script>
@@ -21,7 +20,8 @@
   <header>
     <h1>SNEC<span>Studio</span></h1>
     <p>Zespół tworzący profesjonalne strony internetowe z pasją</p>
-    <div id="scrollArrow" onclick="lipa()">xD</div>
+    <div class="scrollArrow" id="scrollArrow" onclick="lipa()"></div>
+</div>
   </header>
   <section class="slide1">
     <br />
