@@ -17,11 +17,11 @@ body {
 
 /* SCROLLBAR */
 body::-webkit-scrollbar {
-  width: 0 !important;
+  width: 10px !important;
   background-color: #333;
 }
 body::-webkit-scrollbar-thumb {
-  width: 0 !important;
+  width: 10px !important;
   background-color: #af6000;
 }
 
@@ -32,7 +32,7 @@ header {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url("../images/bg0.jpg");
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 }
 header:before {
@@ -67,4 +67,44 @@ div#scrollArrow {
   margin: 0 auto;
   background-size: cover;
   background-image: url("../images/scrollArrow.png");
+}
+/* SLIDE1 */
+section {
+  width: 100%;
+  min-height: 100vh;
+}
+section.slide1 {
+  text-align: center;
+}
+
+section.slide1 > h2 {
+  padding-top: 4vh;
+  color: #e2810a;
+  font-size: 3vw;
+}
+section.slide1 > p {
+  text-align: justify;
+  padding-top: 2vh;
+  margin: 0 auto;
+  width: 70vw;
+  font-size: 1.3vw;
+}
+section.slide1 > #overwrap {
+  margin-top: 20vh;
+}
+section.slide1 > #overwrap > .circle {
+  margin: 0 1vw;
+  font-size: 2vh;
+  text-align: center;
+  padding-top: 6vh;
+  border-radius: 7.5vh;
+  display: inline-block;
+  height: 15vh;
+  background-color: gray;
+  width: 15vh;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+section.slide1 > #overwrap > .circle:hover {
+  background-color: #e2810a;
 }

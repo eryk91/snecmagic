@@ -24,61 +24,24 @@
 </div>
   </header>
   <section class="slide1">
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <h2>Kim jesteśmy?</h2>
+    <p>
+      Jesteśmy zespołem programistów zajmujących się stronami internetowymi.
+      Podejmujemy się różnych prac z nimi powiązanych.
+      Oferujemy tworzenie stron internetowych, ich przebudowę,
+      drobne naprawy, a także wykonujemy unikalne portfolia
+      i lekkie portale internetowe.
+      Staramy się nie podejmować prac związanych z większymi projektami,
+      gdyż nas zespół nie jest liczny.
+    </p>
+    <div id="overwrap">
+      <div class="circle">Design</div>
+      <div class="circle" style="margin-right: 2vw;">Code</div>
+      <div class="circle">Prepare</div>
+      <div class="circle">Publish</div>
+    </div>
+
+
   </section>
   <section class="slide2">
   </section>
