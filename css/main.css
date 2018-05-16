@@ -37,9 +37,9 @@ header {
 }
 header:before {
   position: absolute;
-  top: 550px;
+  top: 500px;
   display: block;
-  background-image: linear-gradient(180deg, transparent 0%, black 100%);
+  background-image: linear-gradient(180deg, transparent 0%, black 75%);
   height: 100%;
   width: 100%;
   content: '';
