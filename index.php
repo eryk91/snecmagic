@@ -7,7 +7,6 @@
   <meta name="keywords" content="snecstudio, snec, studio, programowanie, strony, internetowe, stron, tania, dobra, strona, www" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="shortcut icon" type="image/png" href="images/icon.png"/>
-  <!--<link rel="shortcut icon" type="image/png" href="images/icon.png"/>-->
   <meta name="theme-color" content="#E2810A">
   <meta name="msapplication-navbutton-color" content="#E2810A">
   <meta name="apple-mobile-web-app-status-bar-style" content="#E2810A">
@@ -20,7 +19,7 @@
   <header class="slide0">
     <h1>SNEC<span>Studio</span></h1>
     <p>Zespół tworzący profesjonalne strony internetowe z pasją</p>
-    <div class="scrollArrow" id="scrollArrow" onclick="lipa()"></div>
+    <div id="scrollArrow" onclick="lipa()"></div>
   </header>
 
   <section class="slide1">
@@ -40,7 +39,7 @@
       <div class="circle">Prepare</div>
       <div class="circle">Publish</div>
     </div>
-    <div class="scrollArrow1" id="scrollArrow1" onclick="lipa1()"></div>
+    <div id="scrollArrow1" onclick="lipa1()"></div>
   </section>
 
   <section class="slide2">
@@ -50,7 +49,7 @@
       <div class="square">Second Example</div>
       <div class="square">Third Example</div>
     </div>
-    <div class="scrollArrow2" id="scrollArrow2" onclick="lipa2()"></div>
+    <div id="scrollArrow2" onclick="lipa2()"></div>
   </section>
 
   <section class="slide3">
@@ -114,9 +113,9 @@
        <?php
    }
    ?>
-    <div class="scrollArrow3" id="scrollArrow3" onclick="lipa3()"></div>
+    <div id="scrollArrow3" onclick="lipa3()"></div>
   </section>
-  <footer >
+  <footer>
 	<div>
 		<a href="mailto:snecstudio@gmail.com">Powered by <b style="color: #e2810a">SNEC</b><b style="color:#e2810a;text-decoration:unset;font-size: unset;">Studio</b> © <?php echo date("Y"); ?></a>
 	</div>

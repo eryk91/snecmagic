@@ -7,7 +7,7 @@ $(document).ready(function() {
 function deletePreloader() {
   'use strict';
   $("div#preloader").remove();
-  $('html, body').css('overflowY', 'auto');
+  //$('html, body').css('overflowY', 'auto');
 }
 
 window.onbeforeunload = function () {
@@ -50,3 +50,22 @@ $('#scrollArrow3').click(function(){
 
 });
 }
+
+
+/* SCROLL MACHINE */
+var x = 0;
+var pos = $("#slice0").position();
+$('body').bind('mousewheel', function(e) {
+    if(e.originalEvent.wheelDelta /120 < 0) {
+      x+=0.5;
+    }
+    else{
+      x-=0.5;
+    }
+
+    if(x>2) x=2;
+    if(x<0) x=0;
+    /*start slides effects */
+    pos = $("#slide"+x).position();
+    if(Number.isInteger(x)) $("body").css({"transform":"translateY(-"+x*120+"vh)"});
+});
