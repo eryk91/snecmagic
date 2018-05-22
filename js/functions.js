@@ -67,12 +67,13 @@ $('html').bind('mousewheel', function(e) {
     /*start slides effects */
     pos = $(".slide"+x).position();
     //if(Number.isInteger(x)) $("body").css({"transform":"translateY(-"+x*100+"vh)"});
-
-    if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
+    if(x>=0 && x<=3) {
+      if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);      
+    }
 });
 
-/*mobilescroll*/
 
+/*mobilescroll*/
 document.addEventListener('touchstart', handleTouchStart, false);
 document.addEventListener('touchmove', handleTouchMove, false);
 var xDown = null;
