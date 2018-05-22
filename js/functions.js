@@ -68,7 +68,7 @@ $('html').bind('mousewheel', function(e) {
     pos = $(".slide"+x).position();
     //if(Number.isInteger(x)) $("body").css({"transform":"translateY(-"+x*100+"vh)"});
 
-    if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 898);
+    if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
 });
 
 /*mobilescroll*/
@@ -106,13 +106,13 @@ function handleTouchMove(evt) {
             if(x==2) slice2Effects();
             if(x>3) x=3;
             if(x<0) x=0;
-            if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 898);
+            if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
         } else {
           x = Math.floor(x);
           x--;
           if(x>3) x=3;
           if(x<0) x=0;
-          if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 898);
+          if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
         }
     }
     /* reset values */
