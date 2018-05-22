@@ -51,11 +51,10 @@ $('#scrollArrow3').click(function(){
 });
 }
 
-
 /* SCROLL MACHINE */
 var x = 0;
-var pos = $("#slice0").position();
-$('body').bind('mousewheel', function(e) {
+var pos = $(".slide0").position();
+$('html').bind('mousewheel', function(e) {
     if(e.originalEvent.wheelDelta /120 < 0) {
       x+=0.5;
     }
@@ -63,9 +62,60 @@ $('body').bind('mousewheel', function(e) {
       x-=0.5;
     }
 
-    if(x>2) x=2;
+    if(x>3) x=3;
     if(x<0) x=0;
     /*start slides effects */
-    pos = $("#slide"+x).position();
-    if(Number.isInteger(x)) $("body").css({"transform":"translateY(-"+x*120+"vh)"});
+    pos = $(".slide"+x).position();
+    //if(Number.isInteger(x)) $("body").css({"transform":"translateY(-"+x*100+"vh)"});
+
+    if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 898);
 });
+
+/*mobilescroll*/
+
+document.addEventListener('touchstart', handleTouchStart, false);
+document.addEventListener('touchmove', handleTouchMove, false);
+var xDown = null;
+var yDown = null;
+function handleTouchStart(evt) {
+    xDown = evt.touches[0].clientX;
+    yDown = evt.touches[0].clientY;
+};
+function handleTouchMove(evt) {
+    if ( ! xDown || ! yDown ) {
+        return;
+    }
+
+    var xUp = evt.touches[0].clientX;
+    var yUp = evt.touches[0].clientY;
+
+    var xDiff = xDown - xUp;
+    var yDiff = yDown - yUp;
+
+    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
+        if ( xDiff > 0 ) {
+            /* left swipe */
+        } else {
+            /* right swipe */
+        }
+    } else {
+        if ( yDiff > 0 ) {
+            x = Math.floor(x);
+            x++;
+            if(x==1) slice1Effects();
+            if(x==2) slice2Effects();
+            if(x>3) x=3;
+            if(x<0) x=0;
+            if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 898);
+        } else {
+          x = Math.floor(x);
+          x--;
+          if(x>3) x=3;
+          if(x<0) x=0;
+          if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 898);
+        }
+    }
+    /* reset values */
+    xDown = null;
+    yDown = null;
+};
