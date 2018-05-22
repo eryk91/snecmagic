@@ -72,7 +72,7 @@
        if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
            mail($admin_email, "'$tytul' Od: '$email'", $info);
-           echo "<h3>Dziękujemy za wiadomość!</h3>";
+           echo "<h2>Dziękujemy za wiadomość!</h2>";
        }
 
        else {
