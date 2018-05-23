@@ -41,40 +41,9 @@ $('html').bind('mousewheel', function(e) {
 
 });
 
-/*
+
 
 $(document).on("keydown", function(e) {
-
-
-    var pos = $(window).scrollTop();
-    var speed = 0.5;
-    var one = $(".slide0").scrollTop();
-    var two = $(".slide1").scrollTop();
-    var three = $(".slide2").scrollTop();
-    var four = $(".slide3").scrollTop();
-
-  console.log(e.keyCode)
-
-    if(e.keyCode == 38) {
-        var distance = Math.abs(pos - three);
-        var scrollSpeed = distance * speed;
-        $('html, body').animate({
-            scrollTop: three
-        }, scrollSpeed);
-    }
-
-    if(e.keyCode == 40) {
-        var distance = Math.abs(pos - one);
-        var scrollSpeed = distance * speed;
-        $('html, body').animate({
-            scrollTop: one
-        }, scrollSpeed);
-    }
-});
-
-$(document).on("keypress", function(e) {
-
-
   var pos = $(window).scrollTop();
   var speed = 0.5;
   var one = $(".slide0").scrollTop();
@@ -82,26 +51,19 @@ $(document).on("keypress", function(e) {
   var three = $(".slide2").scrollTop();
   var four = $(".slide3").scrollTop();
 
+    if(e.keyCode == 40) { //w górę
+      x+=1;
+    }
 
-  if(e.keyCode == 38) {
-      var distance = Math.abs(pos - three);
-      var scrollSpeed = distance * speed;
-      $('html, body').animate({
-          scrollTop: three
-      }, scrollSpeed);
-  }
-
-  if(e.keyCode == 40) {
-      var distance = Math.abs(pos - one);
-      var scrollSpeed = distance * speed;
-      $('html, body').animate({
-          scrollTop: one
-      }, scrollSpeed);
-  }
+    if(e.keyCode == 38) { //w dół
+      x-=1;
+    }
+    if(x>=0 && x<=3) {
+      if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
+    }
+    if(x>3) x=3;
+    if(x<0) x=0;
 });
-
-*/
-
 
 function lipa() {
 $('#scrollArrow').click(function(){
