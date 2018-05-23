@@ -123,20 +123,16 @@ function handleTouchMove(evt) {
         }
     } else {
         if ( yDiff > 0 ) {
-            x = Math.floor(x);
-            x++;
-            if(x==1) slice1Effects();
-            if(x==2) slice2Effects();
-            if(x>3) x=3;
-            if(x<0) x=0;
-            if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
-        } else {
-          x = Math.floor(x);
+          x++;
+        }
+        else {
           x--;
-          if(x>3) x=3;
-          if(x<0) x=0;
+        }
+        if(x>=0 && x<=3) {
           if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
         }
+        if(x>3) x=3;
+        if(x<0) x=0;
     }
     /* reset values */
     xDown = null;
