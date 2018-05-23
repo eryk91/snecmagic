@@ -365,12 +365,12 @@ a:hover {
 
   /* SLIDE2 */
   section.slide2 > h2 {
-    padding-top: 5vh;
+    padding-top: 2vh;
     color: #e2810a;
     font-size: 5.5vw;
   }
   section.slide2 > .overwrap {
-    margin-top: 10vh;
+    margin-top: 3vh;
   }
   section.slide2 > .overwrap > .square {
     margin: 1vh auto;
