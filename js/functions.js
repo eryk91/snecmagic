@@ -73,7 +73,6 @@ $('#scrollArrow3').click(function(){
 }
 
 
-
 /*mobilescroll*/
 document.addEventListener('touchstart', handleTouchStart, false);
 document.addEventListener('touchmove', handleTouchMove, false);
