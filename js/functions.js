@@ -41,6 +41,97 @@ $('html').bind('mousewheel', function(e) {
 
 });
 
+/*
+
+var panel_arr = new Array();
+$(document).ready(function(e) {
+
+    $('slide').each(function(i, element){
+        panel_arr.push( $(this).attr("id") );
+    });
+
+    var current_parallax_panel_no   = 0;
+    $(document).keydown(function (evt) {
+        if (evt.keyCode == 40) { // down arrow
+            evt.preventDefault(); // prevents the usual scrolling behaviour
+            if(current_parallax_panel_no < (panel_arr.length-1)) current_parallax_panel_no++;
+            scrollByArrowKeys(1);
+        } else if (evt.keyCode == 38) { // up arrow
+            evt.preventDefault(); // prevents the usual scrolling behaviour
+            if(current_parallax_panel_no >= 1) current_parallax_panel_no--;
+            scrollByArrowKeys(0);
+        }
+    });
+
+    function scrollByArrowKeys(add_more){
+        scrollToThis = (($("." + panel_arr[current_parallax_panel_no]).offset().top)  + add_more // get element top
+        $.scrollTo(scrollToThis, 800);
+    }
+
+});
+
+*/
+
+/*
+
+$(document).on("keydown", function(e) {
+
+
+    var pos = $(window).scrollTop();
+    var speed = 0.5;
+    var one = $(".slide0").scrollTop();
+    var two = $(".slide1").scrollTop();
+    var three = $(".slide2").scrollTop();
+    var four = $(".slide3").scrollTop();
+
+  console.log(e.keyCode)
+
+    if(e.keyCode == 38) {
+        var distance = Math.abs(pos - three);
+        var scrollSpeed = distance * speed;
+        $('html, body').animate({
+            scrollTop: three
+        }, scrollSpeed);
+    }
+
+    if(e.keyCode == 40) {
+        var distance = Math.abs(pos - one);
+        var scrollSpeed = distance * speed;
+        $('html, body').animate({
+            scrollTop: one
+        }, scrollSpeed);
+    }
+});
+
+$(document).on("keypress", function(e) {
+
+
+  var pos = $(window).scrollTop();
+  var speed = 0.5;
+  var one = $(".slide0").scrollTop();
+  var two = $(".slide1").scrollTop();
+  var three = $(".slide2").scrollTop();
+  var four = $(".slide3").scrollTop();
+
+
+  if(e.keyCode == 38) {
+      var distance = Math.abs(pos - three);
+      var scrollSpeed = distance * speed;
+      $('html, body').animate({
+          scrollTop: three
+      }, scrollSpeed);
+  }
+
+  if(e.keyCode == 40) {
+      var distance = Math.abs(pos - one);
+      var scrollSpeed = distance * speed;
+      $('html, body').animate({
+          scrollTop: one
+      }, scrollSpeed);
+  }
+});
+
+*/
 
 
 function lipa() {
