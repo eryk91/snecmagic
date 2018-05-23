@@ -1,6 +1,5 @@
 @import 'preloader.css';
 
-
 @font-face {
     font-family: Lato;
     src: url('../fonts/Lato-Regular.ttf');
@@ -199,7 +198,7 @@ section.slide3 > form#mail {
   padding: 2vh;
   text-align: left;
   border-radius: 1vh;
-  width: 60vw;
+  width: 50vw;
   margin: 0 auto;
   margin-top: 4vh;
   display: block;
@@ -302,4 +301,13 @@ a {
 
 a:hover {
   color: #e2810a;
+}
+
+
+/* MOBLINOŚCI */
+
+@media screen and (max-width: 900px) {
+  section.slide3 > form#mail {
+    width: 90vw !important;
+  }
 }
