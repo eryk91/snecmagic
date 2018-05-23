@@ -65,28 +65,28 @@ $(document).on("keydown", function(e) {
     if(x<0) x=0;
 });
 
-function lipa() {
+function scrollarrow() {
 $('#scrollArrow').click(function(){
 	$("html,body").animate({  scrollTop: $(".slide1").offset().top}, 598);
   x=1;
 
 });
 }
-function lipa1() {
+function scrollarrow1() {
 $('#scrollArrow1').click(function(){
 	$("html,body").animate({  scrollTop: $(".slide2").offset().top}, 598);
   x=2;
 
 });
 }
-function lipa2() {
+function scrollarrow2() {
 $('#scrollArrow2').click(function(){
 	$("html,body").animate({  scrollTop: $(".slide3").offset().top}, 598);
   x=3;
 });
 }
 
-function lipa3() {
+function scrollarrow3() {
 $('#scrollArrow3').click(function(){
 	$("html,body").animate({  scrollTop: $(".slide0").offset().top}, 898);
   x=0;

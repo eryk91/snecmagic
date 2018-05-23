@@ -19,7 +19,7 @@
   <header class="slide0">
     <h1>SNEC<span>Studio</span></h1>
     <p>Zespół tworzący profesjonalne strony internetowe z pasją</p>
-    <div id="scrollArrow" onclick="lipa()"></div>
+    <div id="scrollArrow" onclick="scrollarrow()"></div>
   </header>
 
   <section class="slide1">
@@ -39,7 +39,7 @@
       <div class="circle">Prepare</div>
       <div class="circle">Publish</div>
     </div>
-    <div id="scrollArrow1" onclick="lipa1()"></div>
+    <div id="scrollArrow1" onclick="scrollarrow1()"></div>
   </section>
 
   <section class="slide2">
@@ -49,7 +49,7 @@
       <div class="square">Second Example</div>
       <div class="square">Third Example</div>
     </div>
-    <div id="scrollArrow2" onclick="lipa2()"></div>
+    <div id="scrollArrow2" onclick="scrollarrow2()"></div>
   </section>
 
   <section class="slide3">
@@ -113,7 +113,7 @@
        <?php
    }
    ?>
-    <div id="scrollArrow3" onclick="lipa3()"></div>
+    <div id="scrollArrow3" onclick="scrollarrow3()"></div>
   </section>
   <footer>
 	<div>
