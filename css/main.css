@@ -54,11 +54,11 @@ header:before {
 
 header > h1 {
   padding-top: 30vh;
-  font-size: 6vw;
+  font-size: 6.5vw;
   text-shadow: 5px 5px 15px #000000 !important;
 }
 header > p {
-  font-size: 1.8vw;
+  font-size: 1.95vw;
   text-shadow: 3px 3px 5px #000000 !important;
   padding-bottom: 4vw;
 }
@@ -125,17 +125,17 @@ section.slide1 > p {
   text-align: justify;
   padding-top: 5vh;
   margin: 0 auto;
-  width: 70vw;
-  font-size: 1.3vw;
+  width: 75vw;
+  font-size: 1.8vw;
 }
 section.slide1 > .overwrap {
   margin-top: 20vh;
 }
 section.slide1 > .overwrap > .circle {
   margin: 0 1vw;
-  font-size: 1vw;
+  font-size: 1.3vw;
   text-align: center;
-  padding-top: 3vw;
+  padding-top: 2.7vw;
   border-radius: 7.5vh;
   display: inline-block;
   height: 7vw;
@@ -323,18 +323,19 @@ a:hover {
 }
 
 @media screen and (orientation: portrait) {
+
   header > h1 {
     padding-top: 30vh;
-    font-size: 10vw;
+    font-size: 13vw;
   }
   header > p {
-    font-size: 3vw;
+    font-size: 5vw;
   }
   div#scrollArrow {
     border-radius: 3vw;
     cursor: pointer;
-    width: 10vw;
-    height: 10vw;
+    width: 19vw;
+    height: 19vw;
     display: block;
   }
 
@@ -354,11 +355,11 @@ a:hover {
     display: none;
   }
   div#scrollArrow1 {
-    margin: 5vh auto;
+    margin: 20vh auto;
     border-radius: 8vw;
     cursor: pointer;
-    width: 15vw;
-    height: 15vw;
+    width: 19vw;
+    height: 19vw;
     display: block;
   }
 
@@ -367,7 +368,7 @@ a:hover {
   section.slide2 > h2 {
     padding-top: 2vh;
     color: #e2810a;
-    font-size: 5.5vw;
+    font-size: 5.9vw;
   }
   section.slide2 > .overwrap {
     margin-top: 3vh;
@@ -386,8 +387,8 @@ a:hover {
     margin: 5vh auto;
     border-radius: 8vw;
     cursor: pointer;
-    width: 15vw;
-    height: 15vw;
+    width: 19vw;
+    height: 19vw;
     display: block;
   }
 
@@ -396,7 +397,7 @@ a:hover {
     text-align: center;
   }
   section.slide3 > h2 {
-    font-size: 7vw;
+    font-size: 9vw;
   }
 
   section.slide3 > form#mail {
@@ -405,16 +406,16 @@ a:hover {
     border-radius: 1vh;
     width: 50vw;
     margin: 0 auto;
-    margin-top: 4vh;
+    margin-top: 6vh;
     display: block;
     background-color: rgba(255, 255, 255, 0.2);
   }
   div#scrollArrow3 {
-    margin: 5vh auto;
+    margin: 13vh auto;
     border-radius: 8vw;
     cursor: pointer;
-    width: 15vw;
-    height: 15vw;
+    width: 19vw;
+    height: 19vw;
     display: block;
   }
 

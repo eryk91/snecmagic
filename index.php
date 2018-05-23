@@ -18,7 +18,7 @@
   <div id="preloader"><div id="preloader-circle"></div></div>
   <header class="slide0">
     <h1>SNEC<span>Studio</span></h1>
-    <p>Zespół tworzący profesjonalne strony internetowe z pasją</p>
+    <p>Zespół tworzący z pasją profesjonalne strony internetowe</p>
     <div id="scrollArrow" onclick="scrollarrow()"></div>
   </header>
 
