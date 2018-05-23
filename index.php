@@ -33,7 +33,7 @@
       Staramy się nie podejmować prac związanych z większymi projektami,
       gdyż nas zespół nie jest liczny.
     </p>
-    <div id="overwrap">
+    <div class="overwrap">
       <div class="circle">Design</div>
       <div class="circle" style="margin-right: 2vw;">Code</div>
       <div class="circle">Prepare</div>
@@ -44,7 +44,7 @@
 
   <section class="slide2">
     <h2>Zobacz nasze dotychczasowe projekty</h2>
-    <div id="overwrap">
+    <div class="overwrap">
       <div class="square">First Example</div>
       <div class="square">Second Example</div>
       <div class="square">Third Example</div>

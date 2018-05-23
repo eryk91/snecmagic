@@ -128,24 +128,24 @@ section.slide1 > p {
   width: 70vw;
   font-size: 1.3vw;
 }
-section.slide1 > #overwrap {
+section.slide1 > .overwrap {
   margin-top: 20vh;
 }
-section.slide1 > #overwrap > .circle {
+section.slide1 > .overwrap > .circle {
   margin: 0 1vw;
-  font-size: 2vh;
+  font-size: 1vw;
   text-align: center;
-  padding-top: 6vh;
+  padding-top: 3vw;
   border-radius: 7.5vh;
   display: inline-block;
-  height: 15vh;
-  width: 15vh;
+  height: 7vw;
+  width: 7vw;
   background-size: cover;
   background-image: url("../images/trianglify.svg");
   transition: 0.5s ease;
 }
 
-section.slide1 > #overwrap > .circle:hover {
+section.slide1 > .overwrap > .circle:hover {
   transform: scale(1.2);
   background-color: #e2810a;
 }
@@ -159,10 +159,10 @@ section.slide2 > h2 {
   font-size: 5vw;
 }
 
-section.slide2 > #overwrap {
+section.slide2 > .overwrap {
   margin-top: 20vh;
 }
-section.slide2 > #overwrap > .square {
+section.slide2 > .overwrap > .square {
   margin: 0 1vw;
   font-size: 2vh;
   text-align: center;
@@ -179,7 +179,7 @@ section.slide2 > #overwrap > .square {
 
 }
 
-section.slide2 > #overwrap > .square:hover {
+section.slide2 > .overwrap > .square:hover {
   transform: scale(1.2);
   background-color: #e2810a;
 }
@@ -306,35 +306,119 @@ a:hover {
 
 /* MOBLINOŚCI */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   section.slide3 > form#mail {
     width: 90vw;
+  }
+  section.slide1 > .overwrap > .circle {
+    margin: 0 1vw;
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 9vw;
+    border-radius: 10vw;
+    display: inline-block;
+    height: 20vw;
+    width: 20vw;
   }
 }
 
 @media screen and (orientation: portrait) {
-  section.slide3 > form#mail {
-    width: 99vw;
+  header > h1 {
+    padding-top: 30vh;
+    font-size: 10vw;
   }
-  section.slide1 > #overwrap {
-    margin-top: 20vh;
+  header > p {
+    font-size: 3vw;
   }
-  section.slide1 > #overwrap > .circle {
-    margin: 0 1vw;
-    font-size: 2vh;
-    text-align: center;
-    padding-top: 6vh;
-    border-radius: 7.5vh;
+  div#scrollArrow {
+    border-radius: 3vw;
+    cursor: pointer;
+    width: 10vw;
+    height: 10vw;
     display: block;
-    height: 15vh;
-    width: 15vh;
-    background-size: cover;
-    background-image: url("../images/trianglify.svg");
-    transition: 0.5s ease;
   }
 
-  section.slide1 > #overwrap > .circle:hover {
-    transform: scale(1.2);
-    background-color: #e2810a;
+  /* SLIDE1 */
+  section.slide1 > h2 {
+    padding-top: 5vh;
+    font-size: 9vw;
+  }
+  section.slide1 > p {
+    text-align: justify;
+    padding-top: 5vh;
+    margin: 0 auto;
+    width: 90vw;
+    font-size: 5vw;
+  }
+  section.slide1 > .overwrap {
+    display: none;
+  }
+  div#scrollArrow1 {
+    margin: 5vh auto;
+    border-radius: 8vw;
+    cursor: pointer;
+    width: 15vw;
+    height: 15vw;
+    display: block;
+  }
+
+
+  /* SLIDE2 */
+  section.slide2 > h2 {
+    padding-top: 5vh;
+    color: #e2810a;
+    font-size: 5.5vw;
+  }
+  section.slide2 > .overwrap {
+    margin-top: 10vh;
+  }
+  section.slide2 > .overwrap > .square {
+    margin: 1vh auto;
+    font-size: 2vh;
+    text-align: center;
+    border-radius: 5vw;
+    display: block;
+    height: 20vh;
+    width: 90vw;
+
+  }
+  div#scrollArrow2 {
+    margin: 5vh auto;
+    border-radius: 8vw;
+    cursor: pointer;
+    width: 15vw;
+    height: 15vw;
+    display: block;
+  }
+
+  /* SLIDE3 */
+  section.slide3 {
+    text-align: center;
+  }
+  section.slide3 > h2 {
+    font-size: 7vw;
+  }
+
+  section.slide3 > form#mail {
+    padding: 2vh;
+    text-align: left;
+    border-radius: 1vh;
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 4vh;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  div#scrollArrow3 {
+    margin: 5vh auto;
+    border-radius: 8vw;
+    cursor: pointer;
+    width: 15vw;
+    height: 15vw;
+    display: block;
+  }
+
+  section.slide3 > form#mail {
+    width: 99vw;
   }
 }
