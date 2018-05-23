@@ -190,7 +190,7 @@ section.slide3 {
   text-align: center;
 }
 section.slide3 > h2 {
-  padding-top: 2vh;
+  padding-top: 5vh;
   color: #e2810a;
   font-size: 5vw;
 }
@@ -223,7 +223,7 @@ section.slide3 > form#mail > input[type="submit"] {
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   margin-top: 15px;
-  padding: 5px 25px;
+  padding: 6px 25px;
   border: none;
   outline: none;
   border-radius: 1vh;
