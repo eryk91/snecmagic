@@ -133,13 +133,13 @@ section.slide1 > .overwrap {
 }
 section.slide1 > .overwrap > .circle {
   margin: 0 1vw;
-  font-size: 1.3vw;
+  font-size: 1.5vw;
   text-align: center;
-  padding-top: 2.7vw;
+  padding-top: 2.8vw;
   border-radius: 7.5vh;
   display: inline-block;
-  height: 7vw;
-  width: 7vw;
+  height: 8vw;
+  width: 8vw;
   background-size: cover;
   background-image: url("../images/trianglify.svg");
   transition: 0.5s ease;
