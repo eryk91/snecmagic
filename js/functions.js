@@ -43,37 +43,6 @@ $('html').bind('mousewheel', function(e) {
 
 /*
 
-var panel_arr = new Array();
-$(document).ready(function(e) {
-
-    $('slide').each(function(i, element){
-        panel_arr.push( $(this).attr("id") );
-    });
-
-    var current_parallax_panel_no   = 0;
-    $(document).keydown(function (evt) {
-        if (evt.keyCode == 40) { // down arrow
-            evt.preventDefault(); // prevents the usual scrolling behaviour
-            if(current_parallax_panel_no < (panel_arr.length-1)) current_parallax_panel_no++;
-            scrollByArrowKeys(1);
-        } else if (evt.keyCode == 38) { // up arrow
-            evt.preventDefault(); // prevents the usual scrolling behaviour
-            if(current_parallax_panel_no >= 1) current_parallax_panel_no--;
-            scrollByArrowKeys(0);
-        }
-    });
-
-    function scrollByArrowKeys(add_more){
-        scrollToThis = (($("." + panel_arr[current_parallax_panel_no]).offset().top)  + add_more // get element top
-        $.scrollTo(scrollToThis, 800);
-    }
-
-});
-
-*/
-
-/*
-
 $(document).on("keydown", function(e) {
 
 
