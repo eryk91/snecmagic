@@ -58,7 +58,7 @@ header > h1 {
   text-shadow: 5px 5px 15px #000000 !important;
 }
 header > p {
-  font-size: 1.95vw;
+  font-size: 1.96vw;
   text-shadow: 3px 3px 5px #000000 !important;
   padding-bottom: 7vh;
 }
@@ -126,7 +126,7 @@ section.slide1 > p {
   padding-top: 5vh;
   margin: 0 auto;
   width: 75vw;
-  font-size: 1.8vw;
+  font-size: 1.75vw;
 }
 section.slide1 > .overwrap {
   margin-top: 10vh;
@@ -135,11 +135,16 @@ section.slide1 > .overwrap > .circle {
   margin: 0 1vw;
   font-size: 1.5vw;
   text-align: center;
+<<<<<<< HEAD
   padding-top: 2.8vw;
   border-radius: 7.5vw;
+=======
+  padding-top: 3.3vw;
+  border-radius: 7.5vh;
+>>>>>>> 22c58fd677637355ab92351213e2c8df51dd9f0f
   display: inline-block;
-  height: 8vw;
-  width: 8vw;
+  height: 9vw;
+  width: 9vw;
   background-size: cover;
   background-image: url("../images/trianglify.svg");
   transition: 0.5s ease;
@@ -164,10 +169,10 @@ section.slide2 > h2 {
 }
 
 section.slide2 > .overwrap {
-  margin-top: 20vh;
+  margin-top: 19vh;
 }
 section.slide2 > .overwrap > .square {
-  margin: 0 1vw;
+  margin: 1vw 1vw;
   font-size: 2vh;
   text-align: center;
   padding-top: 8.5vh;
@@ -197,18 +202,16 @@ section.slide3 > h2 {
   color: #e2810a;
   font-size: 5vw;
 }
-
 section.slide3 > form#mail {
   padding: 2vh;
   text-align: left;
   border-radius: 1vh;
   width: 50vw;
   margin: 0 auto;
-  margin-top: 4vh;
+  margin-top: 5vh;
   display: block;
   background-color: rgba(255, 255, 255, 0.2);
 }
-
 section.slide3 > form#mail > input[type="text"], #section-2wrapper > form#mail > input[type="email"] {
   width: 50vw;
   margin-bottom: 2vh;
@@ -220,10 +223,9 @@ section.slide3 > form#mail > input[type="text"], #section-2wrapper > form#mail >
 section.slide3 > form#mail > input[type="text"] {
   width: 75%;
 }
-
 section.slide3 > form#mail > input[type="submit"] {
   background-color: #dddddd;
-  font-size: 3vh;
+  font-size: 1.5vw;
   font-family: 'Lato', sans-serif;
   margin-top: 1.5vh;
   padding: 0.6vh 2.5vh;
