@@ -60,7 +60,7 @@ header > h1 {
 header > p {
   font-size: 1.95vw;
   text-shadow: 3px 3px 5px #000000 !important;
-  padding-bottom: 4vw;
+  padding-bottom: 7vh;
 }
 header > h1 > span {
   color: #e2810a;
@@ -129,14 +129,14 @@ section.slide1 > p {
   font-size: 1.8vw;
 }
 section.slide1 > .overwrap {
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 section.slide1 > .overwrap > .circle {
   margin: 0 1vw;
   font-size: 1.5vw;
   text-align: center;
   padding-top: 2.8vw;
-  border-radius: 7.5vh;
+  border-radius: 7.5vw;
   display: inline-block;
   height: 8vw;
   width: 8vw;
@@ -152,6 +152,10 @@ section.slide1 > .overwrap > .circle:hover {
 /* SLIDE2 */
 section.slide2 {
   text-align: center;
+  background-image: url('../images/bg1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 section.slide2 > h2 {
   padding-top: 5vh;
