@@ -101,7 +101,8 @@ div#scrollArrow3 {
   width: 6vw;
   height: 6vw;
   display: block;
-  margin: 5vh auto;
+  margin: 0 auto;
+  margin-top: 7vh;
   background-size: cover;
   background-image: url("../images/scrollArrow2.png");
   transform: rotate(180deg);
@@ -194,7 +195,7 @@ section.slide3 {
   text-align: center;
 }
 section.slide3 > h2 {
-  padding-top: 5vh;
+  padding: 5vh 0;
   color: #e2810a;
   font-size: 5vw;
 }
@@ -203,14 +204,15 @@ section.slide3 > form#mail {
   text-align: left;
   border-radius: 1vh;
   width: 50vw;
+  min-height: 50vh;
   margin: 0 auto;
-  margin-top: 5vh;
   display: block;
   background-color: rgba(255, 255, 255, 0.2);
 }
 section.slide3 > form#mail > input[type="text"], #section-2wrapper > form#mail > input[type="email"] {
   width: 50vw;
   margin-bottom: 2vh;
+  font-size: 1vw;
   padding: 1vh;
   border-radius: 1vh;
   outline: none;
@@ -237,9 +239,10 @@ section.slide3 > form#mail > input[type="submit"]:hover {
   cursor: pointer;
 }
 section.slide3 > form#mail > textarea {
+  font-size: 1vw;
   resize: none;
   width: 100%;
-  height: 15vh;
+  height: 25vh;
   padding: 1vh;
   border-radius: 0.5vh;
   outline: none;
@@ -265,8 +268,7 @@ footer {
 	clear: both;
   height: 65px;
 	bottom: 0;
-	border-top:1px solid #e2810a;
-
+	/*border-top:1px solid #e2810a;*/
 }
 footer > div {
 	margin: 0 auto;
@@ -284,11 +286,11 @@ footer > div > a {
 }
 
 footer > div > a:hover {
-  	text-decoration: none;
-  	font-size: 22px;
-  	color: #fff;
-    font-family: 'Lato', sans-serif;
-    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-decoration: none;
+	font-size: 22px;
+	color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
 

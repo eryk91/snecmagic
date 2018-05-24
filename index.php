@@ -53,6 +53,7 @@
   </section>
 
   <section class="slide3">
+    <span id="log"></span>
    <?php
 
    ini_set('SMTP', 'ssl://smtp.gmail.com');

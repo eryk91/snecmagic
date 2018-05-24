@@ -22,6 +22,8 @@ jQuery(window).on('scroll', function($){
   }
 });
 
+
+
 /* SCROLL MACHINE */
 var x = 0;
 $('html').bind('mousewheel', function(e) {
