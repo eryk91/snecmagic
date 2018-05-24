@@ -43,8 +43,6 @@ $('html').bind('mousewheel', function(e) {
 
 });
 
-
-
 $(document).on("keydown", function(e) {
   var pos = $(window).scrollTop();
   var speed = 0.5;
@@ -61,7 +59,8 @@ $(document).on("keydown", function(e) {
       x-=1;
     }
     if(x>=0 && x<=3) {
-      if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
+$("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
+      timeOuter(1, 410);
     }
     if(x>3) x=3;
     if(x<0) x=0;
@@ -69,29 +68,28 @@ $(document).on("keydown", function(e) {
 
 function scrollarrow() {
 $('#scrollArrow').click(function(){
-	$("html,body").animate({  scrollTop: $(".slide1").offset().top}, 598);
   x=1;
+  if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
 
 });
 }
 function scrollarrow1() {
 $('#scrollArrow1').click(function(){
-	$("html,body").animate({  scrollTop: $(".slide2").offset().top}, 598);
   x=2;
-
+  if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
 });
 }
 function scrollarrow2() {
 $('#scrollArrow2').click(function(){
-	$("html,body").animate({  scrollTop: $(".slide3").offset().top}, 598);
   x=3;
+  if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
 });
 }
 
 function scrollarrow3() {
 $('#scrollArrow3').click(function(){
-	$("html,body").animate({  scrollTop: $(".slide0").offset().top}, 898);
   x=0;
+  if(Number.isInteger(x)) $("html,body").animate({scrollTop: $(".slide"+x).offset().top}, 400);
 
 });
 }
