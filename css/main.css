@@ -168,24 +168,32 @@ section.slide2 > h2 {
 section.slide2 > .overwrap {
   margin-top: 19vh;
 }
-section.slide2 > .overwrap > .square {
+section.slide2 > .overwrap > a > .square {
   margin: 1vw 1vw;
   font-size: 2vh;
   text-align: center;
   padding-top: 8.5vh;
   border-radius: 1vh;
+  border: 0.5vh solid #E2810A;
   display: inline-block;
   margin-right: 2vh;
   height: 20vh;
   width: 35vh;
   background-size: cover;
-  background-image: url("../images/trianglify.svg");
+
   transition: 0.5s ease;
   cursor: pointer;
-
 }
-
-section.slide2 > .overwrap > .square:hover {
+section.slide2 > .overwrap > a > #square1 {
+    background-image: url("../images/1square.jpg");
+}
+section.slide2 > .overwrap > a > #square2 {
+    background-image: url("../images/2square.jpg");
+}
+section.slide2 > .overwrap > a > #square3 {
+    background-image: url("../images/3square.jpg");
+}
+section.slide2 > .overwrap > a > .square:hover {
   transform: scale(1.2);
   background-color: #e2810a;
 }

@@ -45,9 +45,9 @@
   <section class="slide2">
     <h2>Zobacz nasze dotychczasowe projekty</h2>
     <div class="overwrap">
-      <div class="square">First Example</div>
-      <div class="square">Second Example</div>
-      <div class="square">Third Example</div>
+      <a href="http://rcezbilgoraj.lbl.pl/serwisy/sam"><div class="square" id="square1"></div></a>
+      <a href="http://rcezbilgoraj.lbl.pl/serwisy/pck"><div class="square" id="square2"></div></a>
+      <a href="http://rcezbilgoraj.lbl.pl/serwisy/int"><div class="square" id="square3"></div></a>
     </div>
     <div id="scrollArrow2" onclick="scrollarrow2()"></div>
   </section>
